@@ -17,7 +17,7 @@ public class Garage {
    private String color;
    
    //constructors
-   public void Garage() {
+   public Garage() {
       int horsepower = 215;
       int numSeats = 2;
       int year = 1989;
@@ -33,7 +33,7 @@ public class Garage {
       String name = "Na mx5 Miata";
       String color  = "Midnight Purple";
    }
-   public void Garage(String name, String carType, String driveTrainType, String color, String modList, boolean isManual, boolean isGas, double mileage, double weight, double cost, int horsepower, int numSeats, int year, int LastMaintenanceYear) {
+   public Garage(String name, String carType, String driveTrainType, String color, String modList, boolean isManual, boolean isGas, double mileage, double weight, double cost, int horsepower, int numSeats, int year, int LastMaintenanceYear) {
       this.horsepower = horsepower;
       this.numSeats = numSeats;
       this.year = year;
@@ -52,22 +52,22 @@ public class Garage {
   }
    //methods
    
-   // add mods allows you to add a list of mods, and says (mod) has been added to (car name)
+   // add mods allows you to add a list of mods, and says "(mod) has been added to (car name)"
    public void addMod(String mod) {
       
    }
    
-   // remove mod allows you to take a mod off the list
+   // remove mod allows you to take a mod off the list and says "(mod) has been removed from (cat name)"
    public void removeMod(String mod) {
    
    }
    
-   //maitnecne updates the year maintnece was done to the current year
+   //maitnecne updates the year maintnece was done to the current year and says time since last maintnece
    public void maintenance() {
    
    }
    
-   //drive allows you to add a certain number of miles to the car
+   //drive allows you to add a certain number of miles to the car and displays the current mileage
    public  void drive(double miles) {
       
    }
