@@ -33,4 +33,36 @@ public class Garage {
       String name = "Na mx5 Miata";
       String color  = "Midnight Purple";
    }
+   
+   //methods
+   
+   // add mods allows you to add a list of mods
+   public void addMod(String mod) {
+      
+   }
+   
+   // remove mod allows you to take a mod off the list
+   public void removeMod(String mod) {
+   
+   }
+   
+   //maitnecne updates the year maintnece was done to the current year
+   public void maintenance() {
+   
+   }
+   
+   //drive allows you to add a certain number of miles to the car
+   public  void drive(double miles) {
+      
+   }
+   
+   // paint allows you to change color of the car
+   public void paint(String paintColor) {
+   
+   }
+   
+   //stats displays the current stats of the car
+   public String stats() {
+      return null;
+   }
 }
