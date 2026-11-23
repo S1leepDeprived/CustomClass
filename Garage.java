@@ -17,6 +17,12 @@ public class Garage {
    private String color;
    
    //constructors
+   public Garage(String name, int year, double mileage) {
+      this.name = name;
+      this.year = year;
+      this.mileage = mileage;
+   }
+   
    public Garage() {
       int horsepower = 215;
       int numSeats = 2;
